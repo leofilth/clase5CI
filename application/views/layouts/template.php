@@ -3,10 +3,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta "charset=utf-8" />
-    <title><?php echo $this->layout->getTitle(); ?></title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="<?php echo $this->layout->getDescripcion(); ?>">
     <meta name="keywords" content="<?php echo $this->layout->getKeywords(); ?>"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><?php echo $this->layout->getTitle(); ?></title>
     <link href="<?php echo base_url() ?>public/css/estilos2.css" rel='stylesheet' type='text/css' media='all'/>
     <!--Bootstrap CSS-->
     <link href="<?php echo base_url() ?>public/css/bootstrap.min.css" rel='stylesheet' type='text/css' media='all'/>

@@ -1,7 +1,7 @@
 <div class="container">
     <h1>Formulario en CodeIgniter</h1>
     <p>Algún texto de prueba, ñandú</p>
-    <div class="form-group">
+    <div class="form-group align-center">
     <?php $atributos=array('role'=>'form','class'=>'form-group','id'=>'miformulario','name'=>'form');
     echo form_open_multipart(null,$atributos);//utulizar siempre null, recomendado
     ?>
